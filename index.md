@@ -33,15 +33,18 @@ My research integrates biomedical engineering, artificial intelligence, computat
 
 ## Research Areas
 
-- Artificial Intelligence in Healthcare
-- Computational Hemodynamics
-- Computational Fluid Dynamics and Fluid–Structure Interaction
-- Ultrasound and Medical Imaging
+- Artificial Intelligence for Healthcare
+- Biomedical Imaging
+- Medical Image Analysis
 - Biomedical Signal Processing
-- Wearable Sensors and Biosensors
-- Physics-Informed Neural Networks
-- Digital Twins
-- Biomedical Phantom Development
+- Computational Hemodynamics
+- Cardiovascular
+- Wearable Flexible Electronics
+- Flexible Biosensors
+- Biomaterials
+- Drug Delivery Systems
+- Soft Robotics
+- Medical Device Design
 
 ---
 
