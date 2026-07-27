@@ -4,17 +4,18 @@ title: Research
 ---
 ## Research Areas
 
-- Artificial Intelligence
-- Medical Imaging
-- Ultrasound
-- Computational Hemodynamics
-- CFD
-- Fluid Structure Interaction
+- Artificial Intelligence for Healthcare
+- Biomedical Imaging
+- Medical Image Analysis
 - Biomedical Signal Processing
-- Wearable Electronics
-- Biosensors
-- Digital Twins
-- Physics-Informed Neural Networks
+- Computational Hemodynamics
+- Cardiovascular
+- Wearable Flexible Electronics
+- Flexible Biosensors
+- Biomaterials
+- Drug Delivery Systems
+- Soft Robotics
+- Medical Device Design
   
 # Research
 
