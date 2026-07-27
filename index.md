@@ -1,11 +1,9 @@
 ---
 layout: default
-title: Hasib's Integrated Intelligence in Biomedical Research
+title: Integrated Intelligence in Biomedical Research
 ---
 
-# HIIBR
-
-## Hasib's Integrated Intelligence in Biomedical Research
+## Hasib's Integrated Intelligence in Biomedical Research (HIIBR)
 
 Welcome to the research portfolio of **HASIBUZZAMAN MD**.
 
