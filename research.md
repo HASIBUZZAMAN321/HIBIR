@@ -152,9 +152,6 @@ Current projects include:
 My future research aims to integrate:
 
 - Artificial Intelligence
-- Foundation Models
-- Physics-Informed Neural Networks (PINNs)
-- Digital Twins
 - Computational Biomechanics
 - Medical Imaging
 - Wearable Healthcare Technologies
