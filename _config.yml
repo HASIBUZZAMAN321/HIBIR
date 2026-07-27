@@ -1,5 +1,9 @@
 title: HIBIR
 description: Hasib's Integrated Biomedical Intelligence Research
-theme: jekyll-theme-cayman
-navigation:
 
+theme: jekyll-theme-cayman
+
+github:
+  is_project_page: false
+
+navigation:
