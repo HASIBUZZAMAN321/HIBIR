@@ -45,6 +45,12 @@ Republic of Korea
 
 ---
 
+## Research Collaboration
+
+I welcome collaborations in:
+
+-  International Research on
+
 ## Research Interests
 
 - Artificial Intelligence for Healthcare
@@ -58,15 +64,6 @@ Republic of Korea
 - Soft Robotics
 - Biomaterials
 - Medical Device Design
-
----
-
-## Research Collaboration
-
-I welcome collaborations in:
-
--  International Research
-
 ---
 
 Thank you for your interest in my research. I look forward to collaborating with researchers, clinicians, engineers, students, and industry partners worldwide.
