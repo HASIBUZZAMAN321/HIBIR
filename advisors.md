@@ -48,7 +48,30 @@ Republic of Korea
 
 ---
 
+## Master's Research Mentor
+
+### Dr. Dere Mustapha Deji
+
+**Postdoctoral Researcher (InnoCORE Fellow)**  
+Biomedical Information and Signal Laboratory (BIS Lab)  
+Department of Biomedical Science and Engineering  
+Gwangju Institute of Science and Technology (GIST)  
+Gwangju, Republic of Korea
+
+**Role**
+Provided day-to-day research guidance and technical mentorship throughout my Master's research on biomedical signal processing, machine learning, and deep learning for neurodegenerative disease classification.
+
+**Research Areas**
+- Biomedical Signal Processing
+- Artificial Intelligence
+- Machine Learning & Deep Learning
+- Neuroengineering
+- Medical Data Analysis
+
+📧 Email: deremustapha@gm.gist.ac.kr
 ## Undergraduate Academic Advisor
+
+---
 
 ### Professor Dato' Ir. Dr. Mohammed Rafiq Bin Abdul Kadir
 
@@ -66,20 +89,25 @@ Malaysia
 
 ---
 
-## Project Supervisor
+## Undergraduate Thesis Project Supervisor
 
 ### Dr. Ahmad Zahran bin Khudzari
 
-Chair, School of Biomedical Engineering & Health Sciences  
+Chair  
+School of Biomedical Engineering & Health Sciences  
 Director, IJN–UTM (iHumEn)  
 Universiti Teknologi Malaysia (UTM)  
 Johor Bahru, Malaysia
 
-**Research Area**
-- Biomedical Engineering
-- Medical Device Innovation
-- Translational Healthcare Technology
-- Clinical Engineering
+**Supervised Thesis**
+
+**Computational Fluid Simulation of Spiral Groove Variant for Left Ventricular Assist Device**
+
+**Research Focus**
+- Computational Fluid Dynamics (CFD)
+- Left Ventricular Assist Device (LVAD)
+- Cardiovascular Biomechanics
+- Biomedical Device Design
 
 📧 Email: zahran@biomedical.utm.my
 
