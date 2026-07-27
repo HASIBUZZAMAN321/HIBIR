@@ -29,20 +29,4 @@ My research integrates biomedical engineering, artificial intelligence, computat
 
 ---
 
-## Research Interests
-
-- Artificial Intelligence for Healthcare
-- Biomedical Imaging
-- Biomedical Signal Processing
-- Computational Biomechanics
-- Cardiovascular
-- Wearable Flexible Electronics
-- Flexible Biosensors
-- Drug Delivery Systems
-- Soft Robotics
-- Biomaterials
-- Medical Device Design
-
----
-
 *Engineering biomedical intelligence for better healthcare.*
