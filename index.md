@@ -3,27 +3,13 @@ layout: default
 title: Home
 ---
 
-# HIBIR Lab
+# HIIBR
 
-## Integrated Biomedical Intelligence Research
+## Hasib's Integrated Intelligence in Biomedical Research
 
-Welcome to the research portfolio of **Md Hasibuzzaman**.
+Welcome to the research portfolio of **HASIBUZZAMAN MD**.
 
 My research integrates biomedical engineering, artificial intelligence, computational modeling, medical imaging, biomedical signal processing, ultrasound, wearable sensors, and digital health.
-
----
-
-## Research Areas
-
-- Artificial Intelligence in Healthcare
-- Computational Hemodynamics
-- Computational Fluid Dynamics and Fluid–Structure Interaction
-- Ultrasound and Medical Imaging
-- Biomedical Signal Processing
-- Wearable Sensors and Biosensors
-- Physics-Informed Neural Networks
-- Digital Twins
-- Biomedical Phantom Development
 
 ---
 
@@ -42,6 +28,20 @@ My research integrates biomedical engineering, artificial intelligence, computat
 - 🖼️ [Gallery]({{ '/gallery.html' | relative_url }})
 - 📰 [News]({{ '/news.html' | relative_url }})
 - 📧 [Contact]({{ '/contact.html' | relative_url }})
+
+---
+
+## Research Areas
+
+- Artificial Intelligence in Healthcare
+- Computational Hemodynamics
+- Computational Fluid Dynamics and Fluid–Structure Interaction
+- Ultrasound and Medical Imaging
+- Biomedical Signal Processing
+- Wearable Sensors and Biosensors
+- Physics-Informed Neural Networks
+- Digital Twins
+- Biomedical Phantom Development
 
 ---
 
