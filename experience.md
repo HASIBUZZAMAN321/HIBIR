@@ -195,7 +195,7 @@ Biomedical Engineering Laboratory
 
 **Biomedical Engineering Intern**
 
-**Duration:** 01 September 2018 – August 2018 *(Please verify the exact dates.)*
+**Duration:** 01 September 2018 – May 2019
 
 ### Training Areas
 
@@ -214,7 +214,7 @@ Biomedical Engineering Laboratory
 **Biomedical Trainee Engineer (Part-Time)**  
 Bangladesh
 
-**Duration:** *(Add the exact dates from your CV)*
+**Duration:** August 2014 - March 2015
 
 ### Responsibilities
 
@@ -238,7 +238,7 @@ Bangladesh
 **Biomedical Engineering Intern (Mandatory Diploma Internship)**  
 Bangladesh
 
-**Duration:** *(Add the exact dates from your CV)*
+**Duration:** September 2014 - December 2014
 
 ### Responsibilities
 
