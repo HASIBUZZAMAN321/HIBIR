@@ -28,6 +28,33 @@ Republic of Korea
 
 📧 Email: bigrain@ncc.re.kr
 
+
+---
+
+## Principal Investigator (Former)
+
+### Dr. Tural Khudiyev
+
+**Assistant Professor**  
+Department of Materials Science and Engineering (MSE)  
+National University of Singapore (NUS)  
+Singapore
+
+**Role**
+Principal Investigator and research supervisor during my appointment as a Biomedical Research Engineer at the Flexible Wearable Materials Laboratory, where I conducted research on wearable flexible electronics, biomaterials, drug delivery systems, and AI-enabled healthcare technologies.
+
+**Research Areas**
+- Implantable and Wearable Flexible Electronics
+- Flexible Biosensors
+- Soft Robotics
+- Soft Sensors
+- Bioelectronics
+- Neural Probes
+- Stimuli-Responsive Drug Delivery
+- Advanced Micro/Nanomanufacturing
+- Artificial Intelligence in Healthcare
+- Smart Materials
+
 ---
 
 ## Master's Supervisor
