@@ -50,7 +50,7 @@ Republic of Korea
 - Artificial Intelligence for Healthcare
 - Biomedical Imaging
 - Biomedical Signal Processing
-- Computational Hemodynamics
+- Computational Biomechanics
 - Cardiovascular
 - Wearable Flexible Electronics
 - Flexible Biosensors
