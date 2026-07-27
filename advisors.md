@@ -10,7 +10,7 @@ I have had the privilege of working under the guidance of distinguished research
 ---
 ## Principal Investigator (Current)
 
-### Prof. Dr. Dae Woo Park (PhD)
+### Dr. Dae Woo Park (PhD)
 
 **Principal Investigator**  
 Department of Biomedical Engineering  
