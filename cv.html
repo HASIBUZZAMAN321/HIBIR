@@ -4,182 +4,1111 @@ title: Curriculum Vitae
 ---
 
 <style>
-.cv-container {
-  max-width: 950px;
-  margin: 0 auto;
-  padding: 25px;
-  font-family: Arial, sans-serif;
-}
+  :root {
+    --cv-primary: #146c94;
+    --cv-secondary: #168aad;
+    --cv-dark: #17324d;
+    --cv-text: #243447;
+    --cv-muted: #5f6f7f;
+    --cv-border: #d9e2ec;
+    --cv-light: #f5f9fc;
+    --cv-white: #ffffff;
+    --cv-accent: #e9f5fb;
+    --cv-shadow: 0 8px 24px rgba(25, 55, 85, 0.08);
+  }
 
-.cv-header {
-  text-align: center;
-  margin-bottom: 30px;
-}
+  * {
+    box-sizing: border-box;
+  }
 
-.cv-header h1 {
-  margin-bottom: 8px;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 
-.cv-subtitle {
-  font-size: 18px;
-  color: #555;
-  margin-bottom: 12px;
-}
+  .cv-page {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 24px 18px 60px;
+    color: var(--cv-text);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.65;
+  }
 
-.cv-links a {
-  display: inline-block;
-  margin: 5px;
-  padding: 8px 14px;
-  border: 1px solid #0969da;
-  border-radius: 6px;
-  text-decoration: none;
-}
+  .cv-hero {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 28px;
+    align-items: center;
+    padding: 32px;
+    margin-bottom: 28px;
+    background: linear-gradient(135deg, #f5fbff, #edf7fb);
+    border: 1px solid var(--cv-border);
+    border-radius: 16px;
+    box-shadow: var(--cv-shadow);
+  }
 
-.cv-section {
-  margin-bottom: 14px;
-  border: 1px solid #d0d7de;
-  border-radius: 8px;
-  overflow: hidden;
-}
+  .cv-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--cv-white);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  }
 
-.cv-section summary {
-  cursor: pointer;
-  padding: 16px 20px;
-  font-size: 19px;
-  font-weight: bold;
-  background: #f6f8fa;
-}
+  .cv-photo-placeholder {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--cv-primary);
+    color: var(--cv-white);
+    font-size: 44px;
+    font-weight: 700;
+    border: 5px solid var(--cv-white);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  }
 
-.cv-section summary:hover {
-  background: #eef2f6;
-}
+  .cv-name {
+    margin: 0 0 5px;
+    color: var(--cv-dark);
+    font-size: 38px;
+    line-height: 1.2;
+  }
 
-.cv-content {
-  padding: 18px 22px;
-  line-height: 1.65;
-}
+  .cv-role {
+    margin: 0 0 7px;
+    color: var(--cv-primary);
+    font-size: 20px;
+    font-weight: 700;
+  }
 
-.cv-item {
-  margin-bottom: 24px;
-}
+  .cv-affiliation {
+    margin: 0 0 16px;
+    color: var(--cv-muted);
+    font-size: 16px;
+  }
 
-.cv-meta {
-  color: #57606a;
-  font-style: italic;
-  margin: 5px 0 10px;
-}
+  .cv-keywords {
+    margin-bottom: 18px;
+    color: var(--cv-text);
+    font-size: 15px;
+  }
 
-@media screen and (max-width: 600px) {
-  .cv-container {
-    padding: 10px;
+  .cv-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+  }
+
+  .cv-button {
+    display: inline-block;
+    padding: 9px 14px;
+    color: var(--cv-primary);
+    background: var(--cv-white);
+    border: 1px solid var(--cv-primary);
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.2s ease;
+  }
+
+  .cv-button:hover {
+    color: var(--cv-white);
+    background: var(--cv-primary);
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  .cv-button.primary {
+    color: var(--cv-white);
+    background: var(--cv-primary);
+  }
+
+  .cv-button.primary:hover {
+    background: var(--cv-dark);
+  }
+
+  .cv-quick-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 25px;
+    padding: 16px;
+    background: var(--cv-white);
+    border: 1px solid var(--cv-border);
+    border-radius: 12px;
+  }
+
+  .cv-quick-nav a {
+    padding: 6px 11px;
+    color: var(--cv-primary);
+    background: var(--cv-light);
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .cv-quick-nav a:hover {
+    color: var(--cv-white);
+    background: var(--cv-primary);
+  }
+
+  .cv-section {
+    margin-bottom: 15px;
+    background: var(--cv-white);
+    border: 1px solid var(--cv-border);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(25, 55, 85, 0.04);
   }
 
   .cv-section summary {
+    position: relative;
+    cursor: pointer;
+    padding: 17px 50px 17px 21px;
+    color: var(--cv-dark);
+    background: var(--cv-light);
+    font-size: 19px;
+    font-weight: 700;
+    list-style: none;
+    user-select: none;
+  }
+
+  .cv-section summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .cv-section summary::after {
+    content: "＋";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    color: var(--cv-primary);
+    font-size: 24px;
+    transform: translateY(-50%);
+  }
+
+  .cv-section[open] summary::after {
+    content: "−";
+  }
+
+  .cv-section summary:hover {
+    background: var(--cv-accent);
+  }
+
+  .cv-content {
+    padding: 22px 25px;
+  }
+
+  .cv-content > :first-child {
+    margin-top: 0;
+  }
+
+  .cv-content > :last-child {
+    margin-bottom: 0;
+  }
+
+  .cv-item {
+    position: relative;
+    margin-bottom: 25px;
+    padding: 0 0 24px 23px;
+    border-left: 3px solid #cfe8f3;
+  }
+
+  .cv-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .cv-item::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -8px;
+    width: 13px;
+    height: 13px;
+    background: var(--cv-primary);
+    border: 3px solid var(--cv-white);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px var(--cv-primary);
+  }
+
+  .cv-item h3 {
+    margin: 0 0 3px;
+    color: var(--cv-dark);
+    font-size: 18px;
+  }
+
+  .cv-institution {
+    margin-bottom: 2px;
+    color: var(--cv-primary);
+    font-weight: 700;
+  }
+
+  .cv-meta {
+    margin-bottom: 10px;
+    color: var(--cv-muted);
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  .cv-item ul {
+    margin-top: 8px;
+    padding-left: 21px;
+  }
+
+  .cv-item li {
+    margin-bottom: 5px;
+  }
+
+  .cv-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+  }
+
+  .cv-card {
+    padding: 18px;
+    background: var(--cv-light);
+    border: 1px solid var(--cv-border);
+    border-radius: 10px;
+  }
+
+  .cv-card h3 {
+    margin: 0 0 8px;
+    color: var(--cv-dark);
     font-size: 17px;
   }
-}
+
+  .cv-card p {
+    margin: 5px 0;
+  }
+
+  .cv-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .cv-tag {
+    display: inline-block;
+    padding: 6px 11px;
+    color: var(--cv-dark);
+    background: var(--cv-accent);
+    border: 1px solid #cfe8f3;
+    border-radius: 16px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .cv-publication {
+    margin-bottom: 18px;
+    padding: 17px;
+    background: var(--cv-light);
+    border-left: 4px solid var(--cv-primary);
+    border-radius: 8px;
+  }
+
+  .cv-publication:last-child {
+    margin-bottom: 0;
+  }
+
+  .cv-publication-title {
+    margin: 0 0 6px;
+    color: var(--cv-dark);
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .cv-publication-meta {
+    margin: 4px 0;
+    color: var(--cv-muted);
+    font-size: 14px;
+  }
+
+  .cv-publication a {
+    color: var(--cv-primary);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .cv-publication a:hover {
+    text-decoration: underline;
+  }
+
+  .cv-status {
+    display: inline-block;
+    margin-top: 7px;
+    padding: 4px 9px;
+    color: #14532d;
+    background: #dcfce7;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .cv-status.preparation {
+    color: #7c4a03;
+    background: #fff4cc;
+  }
+
+  .cv-skill-group {
+    margin-bottom: 18px;
+  }
+
+  .cv-skill-group:last-child {
+    margin-bottom: 0;
+  }
+
+  .cv-skill-group h3 {
+    margin: 0 0 9px;
+    color: var(--cv-dark);
+    font-size: 17px;
+  }
+
+  .cv-contact-box {
+    padding: 20px;
+    background: var(--cv-light);
+    border: 1px solid var(--cv-border);
+    border-radius: 10px;
+  }
+
+  .cv-contact-box p {
+    margin: 7px 0;
+  }
+
+  .cv-note {
+    padding: 13px 15px;
+    color: var(--cv-muted);
+    background: #fffbea;
+    border-left: 4px solid #e0a800;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .cv-footer {
+    margin-top: 30px;
+    padding-top: 18px;
+    color: var(--cv-muted);
+    border-top: 1px solid var(--cv-border);
+    text-align: center;
+    font-size: 13px;
+  }
+
+  @media screen and (max-width: 760px) {
+    .cv-hero {
+      grid-template-columns: 1fr;
+      padding: 24px 18px;
+      text-align: center;
+    }
+
+    .cv-photo,
+    .cv-photo-placeholder {
+      margin: 0 auto;
+    }
+
+    .cv-actions {
+      justify-content: center;
+    }
+
+    .cv-name {
+      font-size: 31px;
+    }
+
+    .cv-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .cv-content {
+      padding: 19px 17px;
+    }
+  }
+
+  @media print {
+    .page-header,
+    .site-footer,
+    .cv-quick-nav,
+    .cv-actions {
+      display: none !important;
+    }
+
+    .cv-page {
+      max-width: none;
+      padding: 0;
+    }
+
+    .cv-hero,
+    .cv-section,
+    .cv-card,
+    .cv-publication {
+      box-shadow: none;
+      break-inside: avoid;
+    }
+
+    .cv-section {
+      border: none;
+    }
+
+    .cv-section summary {
+      padding-left: 0;
+      background: none;
+      border-bottom: 1px solid #bbbbbb;
+    }
+
+    .cv-section summary::after {
+      display: none;
+    }
+
+    .cv-content {
+      display: block !important;
+    }
+
+    details:not([open]) > *:not(summary) {
+      display: block !important;
+    }
+  }
 </style>
 
-<div class="cv-container">
+<div class="cv-page">
 
-  <div class="cv-header">
-    <h1>Md Hasibuzzaman</h1>
+  <!-- ===================== HEADER ===================== -->
 
-    <div class="cv-subtitle">
-      Biomedical Engineer | AI in Healthcare | Medical Imaging | CFD | Ultrasound
+  <section class="cv-hero">
+
+    <!--
+    To use your photo, delete the placeholder div below and use:
+
+    <img
+      class="cv-photo"
+      src="{{ '/images/profile.jpg' | relative_url }}"
+      alt="Md Hasibuzzaman">
+    -->
+
+    <div class="cv-photo-placeholder">MH</div>
+
+    <div>
+      <h1 class="cv-name">Md Hasibuzzaman</h1>
+
+      <p class="cv-role">
+        Biomedical Engineer and Healthcare Technology Researcher
+      </p>
+
+      <p class="cv-affiliation">
+        Project Researcher, National Cancer Center, Republic of Korea
+      </p>
+
+      <p class="cv-keywords">
+        Artificial Intelligence in Healthcare · Medical Imaging · Biomedical
+        Signal Processing · Computational Hemodynamics · Ultrasound ·
+        Wearable Technologies
+      </p>
+
+      <div class="cv-actions">
+
+        <!-- Replace the placeholder email -->
+        <a class="cv-button primary"
+           href="mailto:your-email@example.com">
+          Email
+        </a>
+
+        <!-- Replace with your actual profile links -->
+        <a class="cv-button"
+           href="https://scholar.google.com/"
+           target="_blank"
+           rel="noopener">
+          Google Scholar
+        </a>
+
+        <a class="cv-button"
+           href="https://orcid.org/"
+           target="_blank"
+           rel="noopener">
+          ORCID
+        </a>
+
+        <a class="cv-button"
+           href="https://www.linkedin.com/"
+           target="_blank"
+           rel="noopener">
+          LinkedIn
+        </a>
+
+        <a class="cv-button"
+           href="https://github.com/hasibuzzaman321"
+           target="_blank"
+           rel="noopener">
+          GitHub
+        </a>
+
+        <!-- Change the PDF filename if necessary -->
+        <a class="cv-button"
+           href="{{ '/CV/CV_Hasibuzzaman.pdf' | relative_url }}"
+           target="_blank">
+          Download PDF CV
+        </a>
+
+      </div>
     </div>
 
-    <p>
-      Project Researcher, National Cancer Center, Republic of Korea
-    </p>
+  </section>
 
-    <div class="cv-links">
-      <a href="mailto:your-email@example.com">Email</a>
-      <a href="https://scholar.google.com/" target="_blank">Google Scholar</a>
-      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-      <a href="https://github.com/hasibuzzaman321" target="_blank">GitHub</a>
-    </div>
-  </div>
+  <!-- ===================== QUICK NAVIGATION ===================== -->
 
-  <details class="cv-section" open>
+  <nav class="cv-quick-nav" aria-label="CV sections">
+    <a href="#profile">Profile</a>
+    <a href="#interests">Research Interests</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#publications">Publications</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#awards">Awards</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ===================== PROFESSIONAL PROFILE ===================== -->
+
+  <details class="cv-section" id="profile" open>
     <summary>Professional Profile</summary>
+
     <div class="cv-content">
-      Biomedical engineer and researcher with experience in artificial intelligence,
-      medical imaging, biomedical signal processing, computational fluid dynamics,
-      ultrasound imaging, wearable electronics, and cardiovascular modeling.
+      <p>
+        Biomedical engineer and researcher with interdisciplinary experience
+        in artificial intelligence, biomedical signal processing, medical
+        imaging, computational fluid dynamics, fluid–structure interaction,
+        ultrasound imaging, wearable electronics, biomedical materials, and
+        cardiovascular modeling.
+      </p>
+
+      <p>
+        My current research at the National Cancer Center focuses on
+        physics-informed 4D ultrasound, vascular hemodynamics, computational
+        fluid dynamics, fluid–structure interaction, vascular phantom
+        development, and artificial intelligence for quantitative vascular
+        assessment.
+      </p>
+
+      <p>
+        My previous research includes voice-based amyotrophic lateral sclerosis
+        classification, deep learning for medical image analysis, wearable
+        flexible sensing systems, electrospun functional materials, and
+        computational optimization of left ventricular assist devices.
+      </p>
     </div>
   </details>
 
-  <details class="cv-section">
+  <!-- ===================== RESEARCH INTERESTS ===================== -->
+
+  <details class="cv-section" id="interests">
+    <summary>Research Interests</summary>
+
+    <div class="cv-content">
+      <div class="cv-tags">
+        <span class="cv-tag">Artificial Intelligence in Healthcare</span>
+        <span class="cv-tag">Medical Image Analysis</span>
+        <span class="cv-tag">Biomedical Signal Processing</span>
+        <span class="cv-tag">Computational Fluid Dynamics</span>
+        <span class="cv-tag">Fluid–Structure Interaction</span>
+        <span class="cv-tag">Computational Hemodynamics</span>
+        <span class="cv-tag">4D Ultrasound Imaging</span>
+        <span class="cv-tag">Physics-Informed Neural Networks</span>
+        <span class="cv-tag">Digital Twins</span>
+        <span class="cv-tag">Cardiovascular Biomechanics</span>
+        <span class="cv-tag">Wearable Electronics</span>
+        <span class="cv-tag">Flexible Sensors</span>
+        <span class="cv-tag">Biomedical Materials</span>
+        <span class="cv-tag">Biomedical Phantom Development</span>
+        <span class="cv-tag">Rehabilitation Engineering</span>
+      </div>
+    </div>
+  </details>
+
+  <!-- ===================== EDUCATION ===================== -->
+
+  <details class="cv-section" id="education">
     <summary>Education</summary>
+
     <div class="cv-content">
 
       <div class="cv-item">
-        <h3>Master of Science in Biomedical Science and Engineering</h3>
-        <strong>Gwangju Institute of Science and Technology</strong>
-        <div class="cv-meta">2022–2024</div>
+        <h3>
+          Master of Science in Biomedical Science and Engineering
+        </h3>
+
+        <div class="cv-institution">
+          Gwangju Institute of Science and Technology, Republic of Korea
+        </div>
+
+        <div class="cv-meta">
+          February 2022 – February 2024 · CGPA: 3.85/4.50
+        </div>
+
         <p>
-          Thesis: Voice-Based Amyotrophic Lateral Sclerosis Classification
-          Using Deep Learning Methods
+          <strong>Thesis:</strong>
+          Voice-Based Amyotrophic Lateral Sclerosis Classification Using
+          Deep Learning Methods
+        </p>
+
+        <p>
+          <strong>Supervisor:</strong> Prof. Boreom Lee<br>
+          <strong>Research Mentor:</strong> Dr. Dere Mustapha Deji
+        </p>
+
+        <p>
+          <strong>Relevant areas:</strong>
+          machine learning, deep learning, biomedical signal processing,
+          biostatistics, speech processing, and healthcare artificial
+          intelligence.
         </p>
       </div>
 
       <div class="cv-item">
-        <h3>Bachelor of Engineering in Biomedical Engineering</h3>
-        <strong>Universiti Teknologi Malaysia</strong>
-        <div class="cv-meta">2017–2021</div>
+        <h3>
+          Bachelor of Engineering in Biomedical Engineering
+        </h3>
+
+        <div class="cv-institution">
+          Universiti Teknologi Malaysia, Malaysia
+        </div>
+
+        <div class="cv-meta">
+          February 2017 – August 2021 · CGPA: 3.21/4.00
+        </div>
+
         <p>
-          Thesis: Computational Fluid Simulation of Spiral Groove Variants
-          for Left Ventricular Assist Device
+          <strong>Thesis:</strong>
+          Computational Fluid Simulation of Spiral Groove Variants for
+          Left Ventricular Assist Device
+        </p>
+
+        <p>
+          <strong>Thesis Supervisor:</strong>
+          Dr. Ahmad Zahran bin Khudzari
+        </p>
+
+        <p>
+          <strong>Academic Advisor:</strong>
+          Professor Dato' Ir. Dr. Mohammed Rafiq Bin Abdul Kadir
+        </p>
+
+        <p>
+          <strong>Undergraduate Research Supervisor:</strong>
+          Ts. Dr. Muhammad Hanif Ramlee
+        </p>
+      </div>
+
+      <div class="cv-item">
+        <h3>Diploma in Electromedical Technology</h3>
+
+        <div class="cv-institution">
+          Government Polytechnic Institute, Bangladesh
+        </div>
+
+        <p>
+          Technical education in biomedical equipment, medical electronics,
+          clinical instrumentation, equipment servicing, and preventive
+          maintenance.
         </p>
       </div>
 
     </div>
   </details>
 
-  <details class="cv-section">
-    <summary>Research Experience</summary>
+  <!-- ===================== RESEARCH EXPERIENCE ===================== -->
+
+  <details class="cv-section" id="experience">
+    <summary>Research and Professional Experience</summary>
+
     <div class="cv-content">
 
       <div class="cv-item">
         <h3>Project Researcher</h3>
-        <strong>National Cancer Center</strong>
-        <div class="cv-meta">January 2025–Present</div>
+
+        <div class="cv-institution">
+          National Cancer Center, Republic of Korea
+        </div>
+
+        <div class="cv-meta">
+          January 2025 – Present
+        </div>
+
         <ul>
-          <li>4D ultrasound imaging</li>
-          <li>CFD and FSI simulations</li>
-          <li>Vascular phantom development</li>
-          <li>Physics-informed artificial intelligence</li>
+          <li>
+            Conduct research on 4D ultrasound imaging and quantitative
+            vascular elasticity assessment.
+          </li>
+          <li>
+            Develop computational fluid dynamics and fluid–structure
+            interaction models of pulsatile vascular blood flow.
+          </li>
+          <li>
+            Analyze velocity, pressure, wall shear stress, wall shear rate,
+            oscillatory flow, and vessel deformation.
+          </li>
+          <li>
+            Develop and characterize vascular phantoms for ultrasound and
+            flow experiments.
+          </li>
+          <li>
+            Investigate physics-informed neural networks and artificial
+            intelligence methods for cardiovascular imaging.
+          </li>
+          <li>
+            Use ANSYS Fluent, Mechanical, System Coupling, COMSOL, MATLAB,
+            Field II Pro, Python, and SolidWorks.
+          </li>
         </ul>
       </div>
 
       <div class="cv-item">
         <h3>Biomedical Research Engineer</h3>
-        <strong>National University of Singapore</strong>
-        <div class="cv-meta">February 2024–January 2025</div>
+
+        <div class="cv-institution">
+          National University of Singapore, Singapore
+        </div>
+
+        <div class="cv-meta">
+          February 2024 – January 2025
+        </div>
+
         <ul>
-          <li>Flexible wearable electronics</li>
-          <li>Electrospinning and biomaterial fabrication</li>
-          <li>Biomedical sensing and signal processing</li>
+          <li>
+            Conducted research on flexible wearable electronics and
+            biomedical sensing devices.
+          </li>
+          <li>
+            Worked on fiber-based wearable sensing systems for physiological
+            acoustic signal monitoring.
+          </li>
+          <li>
+            Performed electrospinning, fiber fabrication, materials
+            preparation, and device integration.
+          </li>
+          <li>
+            Contributed to biomaterials, energy-storage, and healthcare-device
+            research activities.
+          </li>
+          <li>
+            Supported circuit development, signal acquisition, biomedical
+            signal processing, and experimental validation.
+          </li>
+          <li>
+            Assisted and mentored undergraduate and graduate researchers in
+            laboratory activities.
+          </li>
+        </ul>
+      </div>
+
+      <div class="cv-item">
+        <h3>Graduate Research Assistant</h3>
+
+        <div class="cv-institution">
+          Gwangju Institute of Science and Technology, Republic of Korea
+        </div>
+
+        <div class="cv-meta">
+          February 2022 – February 2024
+        </div>
+
+        <ul>
+          <li>
+            Developed classical machine learning and deep learning methods
+            for voice-based amyotrophic lateral sclerosis classification.
+          </li>
+          <li>
+            Processed speech signals and extracted acoustic and
+            time-frequency features.
+          </li>
+          <li>
+            Used Python, MATLAB, PRAAT, Librosa, Scikit-learn, TensorFlow,
+            and Keras.
+          </li>
+          <li>
+            Conducted model training, validation, performance evaluation,
+            statistical analysis, and scientific writing.
+          </li>
+          <li>
+            Supported teaching, laboratory activities, and student mentoring.
+          </li>
+        </ul>
+      </div>
+
+      <div class="cv-item">
+        <h3>Research Assistant</h3>
+
+        <div class="cv-institution">
+          Bioinspired Device and Tissue Engineering Laboratory,
+          Universiti Teknologi Malaysia
+        </div>
+
+        <div class="cv-meta">
+          September 2021 – March 2022
+        </div>
+
+        <ul>
+          <li>
+            Designed left ventricular assist device geometries using
+            SolidWorks.
+          </li>
+          <li>
+            Performed computational fluid dynamics simulations using
+            ANSYS CFX.
+          </li>
+          <li>
+            Investigated spiral-groove designs for improved hydraulic
+            performance.
+          </li>
+          <li>
+            Evaluated velocity, pressure distribution, wall shear stress,
+            and flow behavior.
+          </li>
+          <li>
+            Conducted literature review, data interpretation, figure
+            preparation, and manuscript writing.
+          </li>
         </ul>
       </div>
 
     </div>
   </details>
 
+  <!-- ===================== EARLY PROFESSIONAL EXPERIENCE ===================== -->
+
   <details class="cv-section">
-    <summary>Publications</summary>
+    <summary>Early Professional Experience and Internships</summary>
+
     <div class="cv-content">
 
       <div class="cv-item">
-        <h3>
+        <h3>Biomedical Trainee Engineer — Part-Time</h3>
+
+        <div class="cv-institution">
+          Medi-Rome Bangladesh Ltd., Bangladesh
+        </div>
+
+        <ul>
+          <li>
+            Assisted with biomedical equipment repair, installation, sales,
+            servicing, and technical support.
+          </li>
+          <li>
+            Worked with electrocardiography systems, ultrasound equipment,
+            and biochemistry analyzers.
+          </li>
+        </ul>
+      </div>
+
+      <div class="cv-item">
+        <h3>Biomedical Engineering Intern</h3>
+
+        <div class="cv-institution">
+          Ibn Sina Diagnostic and Imaging Center, Bangladesh
+        </div>
+
+        <ul>
+          <li>
+            Performed mandatory diploma-level clinical engineering training.
+          </li>
+          <li>
+            Assisted with preventive maintenance, troubleshooting, and
+            servicing of biomedical devices.
+          </li>
+        </ul>
+      </div>
+
+      <div class="cv-item">
+        <h3>Technical Intern</h3>
+
+        <div class="cv-institution">
+          Siemens Healthineers
+        </div>
+
+        <ul>
+          <li>
+            Received exposure to CT, MRI, ultrasound, X-ray, mammography,
+            and clinical engineering systems.
+          </li>
+          <li>
+            Participated in the Siemens Innovation Think Tank Certification
+            Program.
+          </li>
+        </ul>
+      </div>
+
+      <div class="cv-item">
+        <h3>Research Intern</h3>
+
+        <div class="cv-institution">
+          Technische Universität Ilmenau, Germany
+        </div>
+
+        <ul>
+          <li>
+            Gained experience in wearable devices, biomedical sensors, and
+            interdisciplinary healthcare engineering.
+          </li>
+        </ul>
+      </div>
+
+      <div class="cv-item">
+        <h3>Engineering Intern</h3>
+
+        <div class="cv-institution">
+          E-Life Solution PLT, Malaysia
+        </div>
+
+        <ul>
+          <li>
+            Supported medical equipment asset management and engineering
+            service activities.
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </details>
+
+  <!-- ===================== PUBLICATIONS ===================== -->
+
+  <details class="cv-section" id="publications">
+    <summary>Peer-Reviewed Publications</summary>
+
+    <div class="cv-content">
+
+      <article class="cv-publication">
+        <p class="cv-publication-title">
           Automatic Fracture Detection Convolutional Neural Network with
           Multiple Attention Blocks Using Multi-Region X-ray Data
-        </h3>
-        <p><em>Life</em>, 2025</p>
-        <a href="https://doi.org/10.3390/life15071135" target="_blank">
+        </p>
+
+        <p class="cv-publication-meta">
+          <em>Life</em>, 2025 · Co-author
+        </p>
+
+        <a href="https://doi.org/10.3390/life15071135"
+           target="_blank"
+           rel="noopener">
           View DOI
         </a>
+      </article>
+
+      <article class="cv-publication">
+        <p class="cv-publication-title">
+          Three-dimensional Printed Orthosis in Biomedical Application:
+          A Short Review
+        </p>
+
+        <p class="cv-publication-meta">
+          <em>Journal of Physics: Conference Series</em>,
+          IOP Publishing, 2021 · First Author
+        </p>
+
+        <a href="https://doi.org/10.1088/1742-6596/2071/1/012025"
+           target="_blank"
+           rel="noopener">
+          View DOI
+        </a>
+      </article>
+
+    </div>
+  </details>
+
+  <!-- ===================== SUBMITTED MANUSCRIPTS ===================== -->
+
+  <details class="cv-section">
+    <summary>Submitted Manuscripts</summary>
+
+    <div class="cv-content">
+
+      <article class="cv-publication">
+        <p class="cv-publication-title">
+          Hybrid CNN–RNN–Transformer with Focal Loss and Sparse Attention
+          for Stable and Accurate Brain Tumor Classification in MRI
+        </p>
+
+        <p class="cv-publication-meta">
+          Medical image analysis and artificial intelligence
+        </p>
+
+        <span class="cv-status">Submitted</span>
+      </article>
+
+      <article class="cv-publication">
+        <p class="cv-publication-title">
+          Computational Fluid Dynamics in Carotid Artery Disease:
+          Research Trends, Clinical Applications, and Future Perspectives
+        </p>
+
+        <p class="cv-publication-meta">
+          Computational hemodynamics and cardiovascular biomechanics
+        </p>
+
+        <span class="cv-status">Submitted</span>
+      </article>
+
+    </div>
+  </details>
+
+  <!-- ===================== MANUSCRIPTS IN PREPARATION ===================== -->
+
+  <details class="cv-section">
+    <summary>Manuscripts in Preparation</summary>
+
+    <div class="cv-content">
+
+      <article class="cv-publication">
+        <p class="cv-publication-title">
+          Mesh-Dependency Analysis of Pulsatile CFD in Straight and
+          Patient-Specific Carotid Arteries
+        </p>
+
+        <span class="cv-status preparation">In Preparation</span>
+      </article>
+
+      <article class="cv-publication">
+        <p class="cv-publication-title">
+          Physics-Informed Learning for Ultrasound Imaging Using
+          Open-Access Datasets
+        </p>
+
+        <span class="cv-status preparation">In Preparation</span>
+      </article>
+
+      <article class="cv-publication">
+        <p class="cv-publication-title">
+          AI-Based Hemodynamic Prediction Using Physics-Informed
+          Neural Networks
+        </p>
+
+        <span class="cv-status preparation">In Preparation</span>
+      </article>
+
+    </div>
+  </details>
+
+  <!-- ===================== CONFERENCES ===================== -->
+
+  <details class="cv-section">
+    <summary>Conference Presentations</summary>
+
+    <div class="cv-content">
+
+      <div class="cv-item">
+        <h3>Dysarthric Speech Classification Using Autoencoder</h3>
+
+        <div class="cv-institution">
+          Korean Society of Biomedical Engineering
+        </div>
+
+        <div class="cv-meta">
+          Poster Presentation · 2023
+        </div>
       </div>
 
       <div class="cv-item">
@@ -187,23 +1116,495 @@ title: Curriculum Vitae
           Three-dimensional Printed Orthosis in Biomedical Application:
           A Short Review
         </h3>
-        <p><em>Journal of Physics: Conference Series</em>, 2021</p>
-        <a href="https://doi.org/10.1088/1742-6596/2071/1/012025" target="_blank">
-          View DOI
-        </a>
+
+        <div class="cv-institution">
+          International Conference Presentation
+        </div>
+
+        <div class="cv-meta">
+          Oral Presentation · 2021
+        </div>
       </div>
 
     </div>
   </details>
 
-  <details class="cv-section">
-    <summary>Technical Skills</summary>
+  <!-- ===================== RESEARCH PROJECTS ===================== -->
+
+  <details class="cv-section" id="projects">
+    <summary>Selected Research Projects</summary>
+
     <div class="cv-content">
-      <p><strong>Programming:</strong> Python, MATLAB</p>
-      <p><strong>AI:</strong> TensorFlow, Keras, PyTorch, Scikit-learn</p>
-      <p><strong>Simulation:</strong> ANSYS, COMSOL, SolidWorks</p>
-      <p><strong>Imaging:</strong> Field II Pro, ultrasound simulation</p>
+      <div class="cv-grid">
+
+        <div class="cv-card">
+          <h3>Physics-Informed 4D Ultrasound</h3>
+          <p>
+            Development of physics-informed neural-network methods for
+            quantitative measurement of vascular flow and elasticity.
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Patient-Specific Carotid CFD and FSI</h3>
+          <p>
+            Modeling pulsatile blood flow, vessel deformation, wall shear
+            stress, and patient-specific hemodynamic biomarkers.
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Voice-Based ALS Classification</h3>
+          <p>
+            Machine learning and deep learning analysis of speech signals
+            for neurological disease classification.
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Wearable Flexible Biomedical Sensors</h3>
+          <p>
+            Fiber-based flexible devices for physiological acoustic signal
+            acquisition and continuous health monitoring.
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>LVAD Flow Optimization</h3>
+          <p>
+            CFD evaluation of spiral-groove geometries for left ventricular
+            assist device performance.
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Brain Tumor Classification</h3>
+          <p>
+            Hybrid CNN–RNN–Transformer architecture with focal loss and
+            sparse attention for MRI analysis.
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Automatic Fracture Detection</h3>
+          <p>
+            Multi-attention convolutional neural networks for fracture
+            detection using multi-region X-ray datasets.
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>3D-Printed Orthosis Research</h3>
+          <p>
+            Review and analysis of additive manufacturing methods for
+            biomedical orthotic applications.
+          </p>
+        </div>
+
+      </div>
     </div>
   </details>
 
+  <!-- ===================== TECHNICAL SKILLS ===================== -->
+
+  <details class="cv-section" id="skills">
+    <summary>Technical Skills</summary>
+
+    <div class="cv-content">
+
+      <div class="cv-skill-group">
+        <h3>Programming and Data Analysis</h3>
+
+        <div class="cv-tags">
+          <span class="cv-tag">Python</span>
+          <span class="cv-tag">MATLAB</span>
+          <span class="cv-tag">Arduino</span>
+          <span class="cv-tag">PRAAT</span>
+          <span class="cv-tag">Librosa</span>
+          <span class="cv-tag">Scikit-learn</span>
+        </div>
+      </div>
+
+      <div class="cv-skill-group">
+        <h3>Artificial Intelligence and Deep Learning</h3>
+
+        <div class="cv-tags">
+          <span class="cv-tag">TensorFlow</span>
+          <span class="cv-tag">Keras</span>
+          <span class="cv-tag">PyTorch</span>
+          <span class="cv-tag">CNN</span>
+          <span class="cv-tag">RNN</span>
+          <span class="cv-tag">Transformers</span>
+          <span class="cv-tag">PINNs</span>
+        </div>
+      </div>
+
+      <div class="cv-skill-group">
+        <h3>Simulation and Engineering Software</h3>
+
+        <div class="cv-tags">
+          <span class="cv-tag">ANSYS Fluent</span>
+          <span class="cv-tag">ANSYS Mechanical</span>
+          <span class="cv-tag">System Coupling</span>
+          <span class="cv-tag">ANSYS CFX</span>
+          <span class="cv-tag">COMSOL Multiphysics</span>
+          <span class="cv-tag">SolidWorks</span>
+        </div>
+      </div>
+
+      <div class="cv-skill-group">
+        <h3>Medical Imaging and Signal Processing</h3>
+
+        <div class="cv-tags">
+          <span class="cv-tag">Field II Pro</span>
+          <span class="cv-tag">Ultrasound Simulation</span>
+          <span class="cv-tag">Speech Processing</span>
+          <span class="cv-tag">EEG</span>
+          <span class="cv-tag">EMG</span>
+          <span class="cv-tag">X-ray Analysis</span>
+          <span class="cv-tag">MRI Analysis</span>
+        </div>
+      </div>
+
+      <div class="cv-skill-group">
+        <h3>Experimental and Fabrication Skills</h3>
+
+        <div class="cv-tags">
+          <span class="cv-tag">Electrospinning</span>
+          <span class="cv-tag">Fiber Fabrication</span>
+          <span class="cv-tag">Flexible Electronics</span>
+          <span class="cv-tag">Biomaterials</span>
+          <span class="cv-tag">Vascular Phantoms</span>
+          <span class="cv-tag">Circuit Integration</span>
+          <span class="cv-tag">Sensor Characterization</span>
+        </div>
+      </div>
+
+      <div class="cv-skill-group">
+        <h3>Academic and Research Skills</h3>
+
+        <div class="cv-tags">
+          <span class="cv-tag">Scientific Writing</span>
+          <span class="cv-tag">Literature Review</span>
+          <span class="cv-tag">Research Design</span>
+          <span class="cv-tag">Data Visualization</span>
+          <span class="cv-tag">Student Mentoring</span>
+          <span class="cv-tag">Conference Presentation</span>
+          <span class="cv-tag">LaTeX</span>
+        </div>
+      </div>
+
+    </div>
+  </details>
+
+  <!-- ===================== AWARDS ===================== -->
+
+  <details class="cv-section" id="awards">
+    <summary>Awards and Honors</summary>
+
+    <div class="cv-content">
+
+      <div class="cv-grid">
+
+        <div class="cv-card">
+          <h3>Dean's List</h3>
+          <p>
+            Universiti Teknologi Malaysia
+          </p>
+          <p>
+            Semester GPA: 4.00/4.00
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Dean's List</h3>
+          <p>
+            Universiti Teknologi Malaysia
+          </p>
+          <p>
+            Semester GPA: 3.83/4.00
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Siemens Innovation Think Tank</h3>
+          <p>
+            Member of the winning team in the Siemens Innovation Think Tank
+            Certification Program.
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>First Prize</h3>
+          <p>
+            Biomedical device design and prototype development competition.
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Second Place</h3>
+          <p>
+            Inter-university biomedical engineering device design
+            competition.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </details>
+
+  <!-- ===================== LEADERSHIP ===================== -->
+
+  <details class="cv-section" id="leadership">
+    <summary>Leadership, Teaching, and Professional Activities</summary>
+
+    <div class="cv-content">
+
+      <div class="cv-item">
+        <h3>Founder</h3>
+        <div class="cv-institution">
+          GIST International Students Sports Club
+        </div>
+
+        <ul>
+          <li>
+            Founded and organized activities promoting teamwork, health,
+            student well-being, and international cultural exchange.
+          </li>
+        </ul>
+      </div>
+
+      <div class="cv-item">
+        <h3>Teaching Assistant</h3>
+        <div class="cv-institution">
+          Gwangju Institute of Science and Technology
+        </div>
+
+        <ul>
+          <li>
+            Assisted with coursework, laboratory activities, student guidance,
+            and academic support.
+          </li>
+        </ul>
+      </div>
+
+      <div class="cv-item">
+        <h3>Research Mentor</h3>
+        <div class="cv-institution">
+          National University of Singapore
+        </div>
+
+        <ul>
+          <li>
+            Guided students in laboratory methods, experimental design,
+            flexible electronics, materials fabrication, and research
+            activities.
+          </li>
+        </ul>
+      </div>
+
+      <div class="cv-item">
+        <h3>Student Ambassador</h3>
+        <div class="cv-institution">
+          Universiti Teknologi Malaysia
+        </div>
+
+        <ul>
+          <li>
+            Supported academic outreach, prospective-student activities,
+            university programs, and international engagement.
+          </li>
+        </ul>
+      </div>
+
+      <div class="cv-item">
+        <h3>Student and Professional Activities</h3>
+
+        <ul>
+          <li>BIOMESH-UTM student development activities</li>
+          <li>IEM-UTM technical and logistics activities</li>
+          <li>AIESEC Johor Bahru</li>
+          <li>NUS student mentoring and research support</li>
+        </ul>
+      </div>
+
+    </div>
+  </details>
+
+  <!-- ===================== MEMBERSHIPS ===================== -->
+
+  <details class="cv-section">
+    <summary>Professional Memberships</summary>
+
+    <div class="cv-content">
+      <ul>
+        <li>Biomedical Engineering Society</li>
+        <li>Institution of Engineers Malaysia</li>
+        <li>
+          Korean Society of Biomedical Engineering, where applicable
+        </li>
+      </ul>
+    </div>
+  </details>
+
+  <!-- ===================== ADVISORS ===================== -->
+
+  <details class="cv-section">
+    <summary>Academic Advisors, Principal Investigators, and Mentors</summary>
+
+    <div class="cv-content">
+
+      <div class="cv-grid">
+
+        <div class="cv-card">
+          <h3>Prof. Dr. Dae Woo Park</h3>
+          <p>
+            Current Principal Investigator<br>
+            National Cancer Center
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Dr. Tural Khudiyev</h3>
+          <p>
+            Former Principal Investigator<br>
+            National University of Singapore
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Prof. Boreom Lee</h3>
+          <p>
+            Master's Supervisor<br>
+            Gwangju Institute of Science and Technology
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Dr. Dere Mustapha Deji</h3>
+          <p>
+            Master's Research Mentor<br>
+            Gwangju Institute of Science and Technology
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>
+            Professor Dato' Ir. Dr. Mohammed Rafiq Bin Abdul Kadir
+          </h3>
+          <p>
+            Undergraduate Academic Advisor<br>
+            Universiti Teknologi Malaysia
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Dr. Ahmad Zahran bin Khudzari</h3>
+          <p>
+            Undergraduate Thesis Supervisor<br>
+            Universiti Teknologi Malaysia
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Ts. Dr. Muhammad Hanif Ramlee</h3>
+          <p>
+            Undergraduate Research Supervisor<br>
+            Universiti Teknologi Malaysia
+          </p>
+        </div>
+
+        <div class="cv-card">
+          <h3>Dr. Mohammad Boshir Ahmed</h3>
+          <p>Research Mentor</p>
+        </div>
+
+      </div>
+    </div>
+  </details>
+
+  <!-- ===================== LANGUAGES ===================== -->
+
+  <details class="cv-section">
+    <summary>Languages</summary>
+
+    <div class="cv-content">
+      <div class="cv-tags">
+        <span class="cv-tag">Bengali</span>
+        <span class="cv-tag">English</span>
+      </div>
+    </div>
+  </details>
+
+  <!-- ===================== CONTACT ===================== -->
+
+  <details class="cv-section" id="contact">
+    <summary>Contact</summary>
+
+    <div class="cv-content">
+      <div class="cv-contact-box">
+
+        <p>
+          <strong>Name:</strong> Md Hasibuzzaman
+        </p>
+
+        <p>
+          <strong>Current position:</strong>
+          Project Researcher
+        </p>
+
+        <p>
+          <strong>Affiliation:</strong>
+          National Cancer Center, Republic of Korea
+        </p>
+
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:your-email@example.com">
+            your-email@example.com
+          </a>
+        </p>
+
+        <p>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/hasibuzzaman321"
+             target="_blank"
+             rel="noopener">
+            github.com/hasibuzzaman321
+          </a>
+        </p>
+
+        <p>
+          I welcome discussions regarding research collaboration, doctoral
+          opportunities, biomedical engineering, healthcare artificial
+          intelligence, computational modeling, ultrasound imaging, and
+          wearable healthcare technologies.
+        </p>
+
+      </div>
+    </div>
+  </details>
+
+  <div class="cv-footer">
+    © Md Hasibuzzaman · HIBIR — Hasib's Integrated Biomedical Intelligence
+    Research
+  </div>
+
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const sectionLinks = document.querySelectorAll(".cv-quick-nav a");
+
+    sectionLinks.forEach(function (link) {
+      link.addEventListener("click", function () {
+        const targetId = this.getAttribute("href");
+        const target = document.querySelector(targetId);
+
+        if (target && target.tagName.toLowerCase() === "details") {
+          target.open = true;
+        }
+      });
+    });
+  });
+</script>
