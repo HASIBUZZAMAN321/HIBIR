@@ -25,17 +25,17 @@ My research integrates biomedical engineering, artificial intelligence, computat
 
 ## Website Navigation
 
-- [Research Bio](about.md)
-- [Education and Experience](experience.md)
-- [Publications](publications.md)
-- [Thesis and Dissertations](thesis.md)
-- [Research Projects](projects.md)
-- [Awards and Honors](awards.md)
-- [Co-curricular Activities](activities.md)
-- [References](references.md)
-- [Curriculum Vitae](CV/Md_Hasibuzzaman_CV.pdf)
-- [Contact](contact.md)
-
+- 🏠 [Home](index.md)
+- 👤 [About](about.md)
+- 🎓 [Education](education.md)
+- 💼 [Experience](experience.md)
+- 🔬 [Research](research.md)
+- 📂 [Projects](projects.md)
+- 📚 [Publications](publications.md)
+- 🏆 [Awards](awards.md)
+- 🤝 [Leadership & Activities](activities.md)
+- 📄 [CV](CV/HASIBUZZAMAN_CV_R_D.pdf)
+- 📧 [Contact](contact.md)
 ---
 
 *Engineering biomedical intelligence for better healthcare.*
