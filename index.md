@@ -34,7 +34,7 @@ My research integrates biomedical engineering, artificial intelligence, computat
 - 📚 [Publications](publications.md)
 - 🏆 [Awards](awards.md)
 - 🤝 [Leadership & Activities](activities.md)
-- 📄 [CV](CV/HASIBUZZAMAN_CV_R_D.pdf)
+- 📄 [CV](cv.html)
 - 📧 [Contact](contact.md)
 ---
 
