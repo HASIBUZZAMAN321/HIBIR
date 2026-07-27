@@ -100,7 +100,7 @@ My research spans artificial intelligence, biomedical engineering, computational
 
 ### Hybrid CNN–RNN–Transformer with Focal Loss and Sparse Attention for Stable and Accurate Brain Tumor Classification in MRI
 
-**Authors:** Md Hasibuzzaman, *et al.*
+**Authors:** Co-author
 
 **Status:** Submitted to a peer-reviewed journal
 
