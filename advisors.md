@@ -213,3 +213,6 @@ Australia
 # Acknowledgement
 
 I sincerely express my deepest gratitude to all of my advisors, supervisors, principal investigators, and mentors for their invaluable guidance, continuous encouragement, and unwavering support throughout my academic and research journey. Their mentorship has profoundly influenced my development as a biomedical engineer and researcher, inspiring my commitment to advancing healthcare technologies through interdisciplinary research and innovation.
+
+
+[← Home](index.md)
