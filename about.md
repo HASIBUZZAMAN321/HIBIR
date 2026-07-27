@@ -39,19 +39,17 @@ My long-term research vision is to develop clinically translatable intelligent b
 
 ## Research Interests
 
-- Artificial Intelligence for Healthcare
+- Artificial Intelligence
 - Biomedical Imaging
-- Medical Image Analysis
 - Biomedical Signal Processing
-- Computational Hemodynamics
+- Computational Biomechanics
 - Cardiovascular
 - Wearable Flexible Electronics
 - Flexible Biosensors
-- Biomaterials
 - Drug Delivery Systems
 - Soft Robotics
+- Biomaterials
 - Medical Device Design
-
 ---
 
 ## Current Research
@@ -80,7 +78,6 @@ My vision is to bridge biomedical engineering, artificial intelligence, and comp
 
 - Python
 - MATLAB
-- C/C++
 - Arduino
 
 ### Artificial Intelligence
