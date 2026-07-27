@@ -2,19 +2,18 @@
 layout: default
 title: Research
 ---
-## Research Areas
+## Research Interests
 
 - Artificial Intelligence for Healthcare
 - Biomedical Imaging
-- Medical Image Analysis
 - Biomedical Signal Processing
-- Computational Hemodynamics
+- Computational Biomechanics
 - Cardiovascular
 - Wearable Flexible Electronics
 - Flexible Biosensors
-- Biomaterials
 - Drug Delivery Systems
 - Soft Robotics
+- Biomaterials
 - Medical Device Design
   
 # Research
@@ -43,7 +42,7 @@ I develop machine learning and deep learning algorithms for healthcare applicati
 
 ---
 
-## Computational Hemodynamics
+## Computational Biomechanics
 
 My research applies computational fluid dynamics (CFD) and fluid–structure interaction (FSI) to investigate cardiovascular biomechanics and patient-specific blood flow dynamics.
 
