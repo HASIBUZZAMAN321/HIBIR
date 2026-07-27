@@ -43,11 +43,8 @@ My long-term research vision is to develop clinically translatable intelligent b
 - Biomedical Imaging
 - Medical Image Analysis
 - Biomedical Signal Processing
-- Computational Fluid Dynamics (CFD)
-- Fluid–Structure Interaction (FSI)
-- Cardiovascular Biomechanics
-- 4D Ultrasound Imaging
-- Digital Twins
+- Computational Hemodynamics
+- Cardiovascular
 - Wearable Flexible Electronics
 - Flexible Biosensors
 - Biomaterials
