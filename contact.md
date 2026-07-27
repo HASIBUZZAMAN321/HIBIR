@@ -47,20 +47,17 @@ Republic of Korea
 
 ## Research Interests
 
-- Artificial Intelligence in Healthcare
-- Medical Image Analysis
+- Artificial Intelligence for Healthcare
+- Biomedical Imaging
 - Biomedical Signal Processing
-- Ultrasound Imaging
-- Computational Fluid Dynamics (CFD)
-- Fluid–Structure Interaction (FSI)
-- Cardiovascular Biomechanics
-- Physics-Informed Neural Networks (PINNs)
-- Digital Twins
 - Computational Hemodynamics
+- Cardiovascular
 - Wearable Flexible Electronics
+- Flexible Biosensors
+- Drug Delivery Systems
+- Soft Robotics
 - Biomaterials
-- Biomedical Devices
-- Tissue Engineering
+- Medical Device Design
 
 ---
 
@@ -68,20 +65,7 @@ Republic of Korea
 
 I welcome collaborations in:
 
-- Artificial Intelligence for Healthcare
-- Medical Image Analysis
-- Biomedical Signal Processing
-- Computational Fluid Dynamics (CFD)
-- Fluid–Structure Interaction (FSI)
-- Cardiovascular Biomechanics
-- Ultrasound Imaging
-- Physics-Informed Machine Learning
-- Digital Twins
-- Wearable and Flexible Electronics
-- Biomaterials
-- Biomedical Device Design
-- Tissue Engineering
-- PhD, Postdoctoral, and International Research Collaborations
+-  International Research
 
 ---
 
