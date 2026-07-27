@@ -8,6 +8,27 @@ title: Advisors, Supervisors & Mentors
 I have had the privilege of working under the guidance of distinguished researchers and academic mentors throughout my academic and research career.
 
 ---
+## Principal Investigator (Current)
+
+### Prof. Dr. Dae Woo Park (PhD)
+
+**Principal Investigator**  
+Department of Biomedical Engineering  
+Division of Convergence Technology  
+National Cancer Center (NCC)  
+Goyang-si, Gyeonggi-do 10408  
+Republic of Korea
+
+**Research Area**
+- Cardiovascular Biomedical Engineering
+- Ultrasound Imaging
+- Biomedical Convergence Technology
+- Medical Imaging
+- Computational Hemodynamics
+
+📧 Email: bigrain@ncc.re.kr
+
+---
 
 ## Master's Supervisor
 
@@ -42,6 +63,25 @@ Malaysia
 - Medical Devices
 
 📧 Email: rafiqkadir@um.edu.my
+
+---
+
+## Project Supervisor
+
+### Dr. Ahmad Zahran bin Khudzari
+
+Chair, School of Biomedical Engineering & Health Sciences  
+Director, IJN–UTM (iHumEn)  
+Universiti Teknologi Malaysia (UTM)  
+Johor Bahru, Malaysia
+
+**Research Area**
+- Biomedical Engineering
+- Medical Device Innovation
+- Translational Healthcare Technology
+- Clinical Engineering
+
+📧 Email: zahran@biomedical.utm.my
 
 ---
 
