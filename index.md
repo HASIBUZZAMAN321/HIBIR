@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Hasib's Integrated Intelligence in Biomedical Research
 ---
 
 # HIIBR
@@ -31,19 +31,18 @@ My research integrates biomedical engineering, artificial intelligence, computat
 
 ---
 
-## Research Areas
+## Research Interests
 
 - Artificial Intelligence for Healthcare
 - Biomedical Imaging
-- Medical Image Analysis
 - Biomedical Signal Processing
-- Computational Hemodynamics
+- Computational Biomechanics
 - Cardiovascular
 - Wearable Flexible Electronics
 - Flexible Biosensors
-- Biomaterials
 - Drug Delivery Systems
 - Soft Robotics
+- Biomaterials
 - Medical Device Design
 
 ---
