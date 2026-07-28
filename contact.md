@@ -11,19 +11,19 @@ Thank you for visiting my academic website. I welcome opportunities for research
 
 ## Contact Information
 
-📧 **[Email](mailto:mdhasibuzzaman321@gmail.com)**
+<p>📧 <strong><a href="mailto:mdhasibuzzaman321@gmail.com">Email</a></strong></p>
 
-💼 **[LinkedIn](https://www.linkedin.com/in/mdhasibuzzaman321/)**
+<p>💼 <strong><a href="https://www.linkedin.com/in/mdhasibuzzaman321/" target="_blank" rel="noopener noreferrer">LinkedIn</a></strong></p>
 
-🎓 **[Google Scholar](https://scholar.google.com/citations?user=oLTjr5IAAAAJ&hl=en)**
+<p>🎓 <strong><a href="https://scholar.google.com/citations?user=oLTjr5IAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></strong></p>
 
-💻 **[GitHub](https://github.com/hasibuzzaman321)**
+<p>💻 <strong><a href="https://github.com/hasibuzzaman321" target="_blank" rel="noopener noreferrer">GitHub</a></strong></p>
 
-🌐 **[Academic Website](https://hasibuzzaman321.github.io/HIIBR/)**
+<p>🌐 <strong><a href="https://hasibuzzaman321.github.io/HIIBR/" target="_blank" rel="noopener noreferrer">Academic Website</a></strong></p>
 
-🆔 **[ORCID](https://orcid.org/0000-0001-5961-6043)**
+<p>🆔 <strong><a href="https://orcid.org/0000-0001-5961-6043" target="_blank" rel="noopener noreferrer">ORCID</a></strong></p>
 
-📚 **[ResearchGate](https://www.researchgate.net/profile/Hasibuzzaman-Md)**
+<p>📚 <strong><a href="https://www.researchgate.net/profile/Hasibuzzaman-Md" target="_blank" rel="noopener noreferrer">ResearchGate</a></strong></p>
 
 ---
 
