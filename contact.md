@@ -11,26 +11,19 @@ Thank you for visiting my academic website. I welcome opportunities for research
 
 ## Contact Information
 
-📧 **Email:**  
-[mdhasibuzzaman321@gmail.com](mailto:mdhasibuzzaman321@gmail.com)
+📧 **[Email](mailto:mdhasibuzzaman321@gmail.com)**
 
-💼 **LinkedIn:**  
-[View Profile](https://www.linkedin.com/in/mdhasibuzzaman321/)
+💼 **[LinkedIn](https://www.linkedin.com/in/mdhasibuzzaman321/)**
 
-🎓 **Google Scholar:**  
-[View Profile](https://scholar.google.com/citations?user=oLTjr5IAAAAJ&hl=en)
+🎓 **[Google Scholar](https://scholar.google.com/citations?user=oLTjr5IAAAAJ&hl=en)**
 
-💻 **GitHub:**  
-[hasibuzzaman321](https://github.com/hasibuzzaman321)
+💻 **[GitHub](https://github.com/hasibuzzaman321)**
 
-🌐 **Academic Website:**  
-[HIIBR Research Portfolio](https://hasibuzzaman321.github.io/HIIBR/)
+🌐 **[Academic Website](https://hasibuzzaman321.github.io/HIIBR/)**
 
-🆔 **ORCID:**  
-[0000-0001-5961-6043](https://orcid.org/0000-0001-5961-6043)
+🆔 **[ORCID](https://orcid.org/0000-0001-5961-6043)**
 
-📚 **ResearchGate:**  
-[View Profile](https://www.researchgate.net/profile/Hasibuzzaman-Md)
+📚 **[ResearchGate](https://www.researchgate.net/profile/Hasibuzzaman-Md)**
 
 ---
 
